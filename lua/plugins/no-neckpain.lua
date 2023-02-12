@@ -9,8 +9,14 @@ return {
               enabled = false,
             },
           },
+          toggleMapping = false,
+          widthUpMapping = false,
+          widthDownMapping = false,
         })
       end,
+      keys = {
+        { "<leader>N", "<cmd>NoNeckPain<cr>", desc = "Toggle No Neck Pain" },
+      },
     },
   },
 }
